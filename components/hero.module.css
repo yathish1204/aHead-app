@@ -1,0 +1,378 @@
+.bg{
+    border-radius: 1rem;
+    background: #EEEBFE;
+    width: 95vw;
+    height: fit-content;
+    margin: 1.5rem auto;
+    padding: 5rem 3.13rem;
+    margin-bottom: auto;
+    display: flex;
+    margin-top:8rem;
+    position: relative;
+    overflow:hidden;
+    
+}
+
+
+
+.p1{
+    color: #434347;
+    font-size: 2rem;
+}
+
+.h1{
+    color: #0C0C0D;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.h1::selection,.p1::selection{
+    background-color:#ded9fe ;
+    color: #000000;
+}
+
+.btnRow{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.apple{
+    display: flex;
+    padding: 0.375rem 0.75rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    background: #000;
+    width: 9.5rem;
+    cursor: pointer;
+    min-width: 10.5rem;
+}
+
+.apple:hover{
+    background: #303031;
+    cursor:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23E2BFF9" stroke="%23E48AF9" stroke-width="2" stroke-linejoin="round" d="M10 11V8.99c0-.88.59-1.64 1.44-1.86h.05A1.99 1.99 0 0 1 14 9.05V12v-2c0-.88.6-1.65 1.46-1.87h.05A1.98 1.98 0 0 1 18 10.06V13v-1.94a2 2 0 0 1 1.51-1.94h0A2 2 0 0 1 22 11.06V14c0 .6-.08 1.27-.21 1.97a7.96 7.96 0 0 1-7.55 6.48 54.98 54.98 0 0 1-4.48 0 7.96 7.96 0 0 1-7.55-6.48C2.08 15.27 2 14.59 2 14v-1.49c0-1.11.9-2.01 2.01-2.01h0a2 2 0 0 1 2.01 2.03l-.01.97v-10c0-1.1.9-2 2-2h0a2 2 0 0 1 2 2V11Z"></path></svg>'),auto;
+}
+
+.acont .p2{
+    color: #989898;
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.acont .h5{
+    color: #C4C4C4;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.25rem;
+    user-select: none;
+}
+
+.stars{
+    display: flex;
+    width: 1.25rem;
+    height: 1.125rem;
+    user-select: none;
+    gap: 0.25rem;
+    min-width: 8rem;
+    cursor:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23E2BFF9" stroke="%23E48AF9" stroke-width="2" stroke-linejoin="round" d="M10 11V8.99c0-.88.59-1.64 1.44-1.86h.05A1.99 1.99 0 0 1 14 9.05V12v-2c0-.88.6-1.65 1.46-1.87h.05A1.98 1.98 0 0 1 18 10.06V13v-1.94a2 2 0 0 1 1.51-1.94h0A2 2 0 0 1 22 11.06V14c0 .6-.08 1.27-.21 1.97a7.96 7.96 0 0 1-7.55 6.48 54.98 54.98 0 0 1-4.48 0 7.96 7.96 0 0 1-7.55-6.48C2.08 15.27 2 14.59 2 14v-1.49c0-1.11.9-2.01 2.01-2.01h0a2 2 0 0 1 2.01 2.03l-.01.97v-10c0-1.1.9-2 2-2h0a2 2 0 0 1 2 2V11Z"></path></svg>'),auto;
+}
+
+.p3{
+    color: #85838C;
+    font-size: 0.6875rem;
+    font-weight: 600;
+}
+.left{
+    width: 50vw;
+}
+
+.right .img{
+    width:40vw ;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    right: 17rem;
+    top: -1rem;
+    opacity: 0.65;
+}
+.circle2{
+    position: absolute;
+    left: -1.5rem;
+    top: 15rem;
+    opacity: 0.5;
+}
+.circle3{
+    position: absolute;
+    left: 12rem;
+    bottom: -1.5rem;
+}
+
+.seed{
+    position: absolute;
+    top: 6rem;
+    left: 41rem;
+}
+
+.leaf{
+    position: absolute;
+    top: 8rem;
+    left: 39rem;
+}
+
+.flower{
+    position: absolute;
+    top: 16rem;
+    left: 37rem;
+}
+
+.halfleaf{
+    position: absolute;
+    left: 10rem;
+    top: 0rem;
+}
+
+.gBrown{
+    position: absolute;
+    right: 2rem;
+    top: 19rem;
+}
+.gPink{
+    position: absolute;
+    right: 25rem;
+    bottom: 5rem;
+}
+.gSky{
+    position: absolute;
+    right: 20rem;
+    top: 3rem;
+}
+
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    padding:0  100px ;
+    gap: 8rem;
+    margin: 5rem auto;
+}
+
+.cont h3{
+    text-wrap: nowrap;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cont p{
+    color: #666669;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1200px) {
+    .bg{
+        display: flex;
+    }
+    .p1{
+        font-size: 2rem;
+    }
+    .h1{
+        font-size: 3.2rem;
+    }
+   
+    .gPink{
+        right: 21rem;
+        bottom: 5rem;
+    }
+    .gSky{
+        right: 18rem;
+        top: 4rem;
+    }
+    .seed{
+        top: 12rem;
+        left: 28rem;
+    }
+    
+    .leaf{
+        top: 8rem;
+        left: 50rem;
+    }
+    
+    .flower{
+        top: 12rem;
+        left: 37rem;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .bg{
+        display: flex;
+        padding: 5rem 2rem;
+    }
+    .right .img{
+        width: 25rem;
+    }
+    .p1{
+        font-size: 1.5rem;
+    }
+    .h1{
+        font-size: 2.8rem;
+    }
+    .cont{
+        gap: 2rem;
+        padding:0 2rem ;
+    }
+    .cont .h3{
+        font-size: 1rem;
+    }
+    .cont .p{
+        font-size: 0.8rem;
+    }
+ 
+    .gPink{
+        right: 14rem;
+        bottom: 6rem;
+        scale: 0.85;
+    }
+    .gSky{
+        right: 16rem;
+        top: 5rem;
+    }
+    .seed{
+        top: 11rem;
+        left: 20rem;
+    }
+    
+    .leaf{
+        top: 7rem;
+        left: 40rem;
+    }
+    
+    .flower{
+        top: 12rem;
+        left: 29rem;
+    }
+   
+}
+
+@media screen and (max-width:800px){
+    .bg{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem auto;
+        gap: 2rem;
+        width: 90vw;
+    }
+    .p1{
+        font-size: 1.5rem;
+    }
+    .h1{
+        font-size: 2.4rem;
+        z-index: 3;
+    }
+
+    .left{
+        width: 80vw;
+    }
+    
+    .right .img{
+        width:18rem ;
+    }
+    .btnRow{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .cont{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0rem 1rem;
+    }
+    .cont .h3{
+        font-size: 0.85rem;
+    }
+    .cont .p{
+        font-size: 0.7rem;
+    }
+    .right{
+        margin: auto;
+    }
+    .gBrown{
+        right: 7rem;
+        top: 35rem;
+    }
+    .gPink{
+        right: 20rem;
+        bottom: 2rem;
+        scale: 0.85;
+    }
+    .gSky{
+        right: 16rem;
+        top: 22rem;
+    }
+    .seed{
+        top: 12.25rem;
+        left: 18.25rem;
+    }
+    
+    .leaf{
+        top: 7rem;
+        left: 40rem;
+    }
+    
+    .flower{
+        top: 12rem;
+        left: 29rem;
+    }
+    .halfleaf{
+        left: 5rem;
+        top: 0rem;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .gBrown{
+        right: 2rem;
+        top: 35rem;
+    }
+    .gPink{
+        right: 12rem;
+        bottom: 2rem;
+        scale: 0.75;
+    }
+    .gSky{
+        right: 13rem;
+        top: 28rem;
+    }
+    .seed{
+        top: 12.25rem;
+        left: 18.25rem;
+    }
+    
+    .leaf{
+        top: 7rem;
+        left: 20rem;
+    }
+    
+    .flower{
+        top: 20rem;
+        left: 15rem;
+    }
+    .halfleaf{
+        left: 5rem;
+        top: 0rem;
+    }
+}

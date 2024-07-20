@@ -1,0 +1,289 @@
+.with{
+    background-color: #F3F1FF;
+    width: 95vw;
+    height: 44rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+    border-radius: 1rem;
+    position: relative;
+    overflow:hidden;
+    padding: 3rem 3.13rem;
+    display: flex;
+    flex-direction: column;
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="36" viewBox="0 0 24 24"><path fill="%23F3F1FF" stroke="%23AFA9FF" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>'),auto;
+}
+/* 
+.withus{
+    margin-top: 8rem;
+} */
+
+.h2h4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.ush2{
+    color: #181819;
+    font-size: 3.375rem;
+    font-weight: 600;
+    text-wrap: wrap;
+}
+
+.ush4{
+    color: #6B4BEF;
+    font-size: 3.8125rem;
+    font-weight: 600;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    border-radius: 1.25rem;
+    background: #FEFEFE;
+}
+
+.leftIn{
+    padding: 2.5rem;
+    position: relative;
+}
+
+
+.gPurple{
+    width: 2.875rem;
+    height: 3.4375rem;
+    object-fit: contain;
+    transform-origin: top center;
+}
+
+.about{
+    color: #393939;
+    font-size: 1.5625rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+}
+
+.abPara{
+    color: #77777A;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.innerLeft{
+    border-radius: 0rem 0rem 1.125rem 1.1875rem;
+    background: #FDF6F0;
+    width: 100%;
+    padding: 2.5rem;
+}
+
+.withlh4{
+    color: #474645;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.withlp{
+    color: #868586;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+.right{
+    width: 30%;
+    overflow: hidden;
+    position: relative;
+}
+
+.containerRight{
+    height: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: fixed;
+    /* padding-right:3rem; */
+}
+
+
+
+.scrollCard{
+    border-radius: 1.3125rem;
+    border: 2px solid #FBFAFE;
+    background: #FEFEFE;
+    padding: 2.5rem;
+}
+
+.withrh4{
+    color: #5F5F5F;
+    font-size: 1rem;
+}
+
+.withrp{
+    color: #9F9FA1;
+    font-size: 0.84375rem;
+    margin-top: 1rem;
+}
+
+.progress{
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+}
+
+.track{
+    width: 0.4375rem;
+    height: 38rem;
+}
+
+.thumb{
+    transform: translateY(-38rem);
+}
+
+
+@media screen and (max-width:1200px) {
+    .ush2{
+        font-size: 3rem;
+    }
+    .ush4{
+        font-size: 3.2rem;
+    
+    }
+    .right{
+        width: 40%;
+    }
+    .containerRight{
+        padding-right:0rem;
+    }
+    .with{
+        height: 50rem;
+    }
+}
+@media screen and (max-width:1000px) {
+    .right{
+        width: 50%;
+    }
+    .containerRight{
+        padding-right:0rem;
+    }
+    .ush2{
+        font-size: 2.5rem;
+    }
+    .ush4{
+        font-size: 2.9rem;
+    
+    }
+    .leftIn{
+        padding: 1.5rem;
+    }
+    .gPurpleWith{
+        width: 2.25rem;
+        height: 3rem;
+    }
+    .about{
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+    .abPara{
+        font-size: 0.9rem;
+        margin-top: 0.7rem;
+    }
+    .innerLeft{
+        padding: 1.75rem;
+    }
+    
+    .withlh4{
+        font-size: 1.25rem;
+    }
+    
+    .withlp{
+        font-size: 0.9rem;
+        margin-top: 0.7rem;
+    }
+    .right{
+        width: 50%;
+    }
+    .containerRight{
+        padding-right:0rem;
+    }
+    .scrollCard{
+        padding: 1.75rem;
+    }
+    .withrh4{
+        font-size: 0.9rem;
+    }
+    .withrp{
+        font-size: 0.75rem;
+        margin-top: 0.5rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .with{
+        width: 95vw;
+        padding: 3rem 1rem;
+        margin: 4rem 1rem;
+        height:40rem;
+    }
+    .ush2{
+        font-size: 2rem;
+    }
+    .ush4{
+        font-size: 2.5rem;
+    }
+    .left{
+        width: 45%;
+    }
+    .leftIn{
+        padding: 1rem;
+    }
+    .gPurpleWith{
+        width: 2rem;
+        height: 2.75rem;
+    }
+    .about{
+        font-size: 1rem;
+        margin-top: 0.75rem;
+    }
+    .abPara{
+        font-size: 0.85rem;
+        margin-top: 0.7rem;
+    }
+    .innerLeft{
+        padding: 1rem;
+    }
+    
+    .withlh4{
+        font-size: 1rem;
+    }
+    
+    .withlp{
+        font-size: 0.8rem;
+        margin-top: 0.7rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .ush2{
+        font-size: 2rem;
+    }
+    .ush4{
+        font-size: 2rem;
+    }
+    .left{
+        display: none;
+    }
+    .with{
+        height: 25rem;
+        margin-top: 8rem;
+        margin-bottom: 0rem;
+    }
+    .right{
+        width: 80vw;
+    }
+}

@@ -1,0 +1,96 @@
+.inner{
+    position: relative;
+}
+
+.familiar{
+    margin-top: 10rem;
+}
+
+
+.h2{
+    color: #141414;
+    font-size: 2.73238rem;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.scroller{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.scroller .img{
+    width: 24.21394rem;
+    height: 16.49744rem;
+    object-fit: contain;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+.ghost2nd{
+    width: 3.39731rem;
+    height: 4.408rem;
+    height: fit-content;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1200px) {
+
+    .h2{
+        font-size: 2.25rem;
+    }
+    .scroller{
+        gap: 0.75rem;
+    }
+    .scroller .img{
+        width: 20rem;
+        height: 12rem;
+        object-fit: contain;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .h2{
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .header{
+        gap: 0.75rem;
+    }
+    .scroller .img{
+        width: 17rem;
+        height: 11rem;
+        object-fit: contain;
+    }
+   
+
+
+}
+
+@media screen and (max-width:800px){
+
+    .h2{
+        font-size: 1.5rem;
+        margin-left: 1.25rem;
+    }
+    .header{
+        gap: 0.5rem;
+    }
+    .scroller{
+        gap: 0.5rem;
+    }
+
+
+}

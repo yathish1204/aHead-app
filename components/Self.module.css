@@ -1,0 +1,212 @@
+.self{
+    margin: 0 6.5rem;
+    margin-top: 8rem;
+    width: 95vw;
+}
+
+.para1{
+    color: #494949;
+    font-size: 1.12919rem;
+}
+
+.heading{
+    color: #121212;
+    font-size: 2.97156rem;
+    font-weight: 600;
+}
+
+.selfDiv{
+    display: flex;
+    align-items: center;
+}
+
+.gSkyThird{
+    width: 4.39731rem;
+    height: 5.408rem;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.wrapper{
+    margin: 0 10rem;
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+    height: fit-content;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    justify-content: space-between;
+}
+
+.head1, .head2, .head3, .head4{
+    color: #303030;
+    font-weight: 600;
+    font-size: 1.33125rem;
+}
+
+
+
+.para2, .para3, .para4,.para5{
+    color: #484848;
+    font-size: 1.21238rem;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    padding:0  100px ;
+    gap: 8rem;
+    margin: 0rem auto;
+    margin-top: 8rem;
+}
+
+.cont h3{
+    text-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cont p{
+    color: #666669;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+@media screen and(max-width:1200px) {
+    .wrapper{
+        margin: 0 4rem;
+        margin-top: 3rem;
+        gap: 3rem;
+    }
+    .content{
+        row-gap: 1rem;
+        padding:0 1rem;
+        width: fit-content;
+    }
+    .head1, .head2, .head3, .head4{
+        font-size: 1.1rem;
+        text-wrap: wrap;
+    }
+ 
+    .para2, .para3, .para4,.para5{
+        font-size: 1rem;
+        text-wrap: wrap;
+    }
+  
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .cont{
+        gap: 2rem;
+        padding:0 2rem ;
+    }
+    .cont .h3Cont{
+        font-size: 1rem;
+    }
+    .cont .pCont{
+        font-size: 0.8rem;
+    }
+    .self{
+        margin: 0 4rem;
+        margin-top: 6rem;
+    }
+    .para1{
+        font-size: 1rem;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    .wrapper{
+        margin: 0 6rem;
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+    
+    .content{
+        row-gap: 2rem;
+    }
+    .head1, .head2, .head3, .head4{
+        font-size: 1rem;
+    }
+ 
+    .para2, .para3, .para4,.para5{
+        font-size: 0.9rem;
+    }
+
+    
+
+}
+
+@media screen and (max-width:800px){
+    .cont{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0rem 1rem;
+    }
+    .cont .h3Cont{
+        font-size: 0.85rem;
+    }
+    .cont .pCont{
+        font-size: 0.7rem;
+    }
+    .self{
+        margin: 0 1rem;
+        margin-top: 4rem;
+        width: 90vw;
+    }
+    .para1{
+        font-size: 0.85rem;
+    }
+    .heading{
+        font-size: 2rem;
+        margin-top: 0.5rem;
+    }
+    .wrapper{
+        margin: 0 1rem;
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+    
+    .content{
+        row-gap: 1.25rem;
+    }
+    .head1, .head2, .head3, .head4{
+        font-size: 0.9rem;
+    }
+ 
+    .para2, .para3, .para4,.para5{
+        font-size: 0.8rem;
+    }
+    
+
+}
+
+@media screen and (max-width:500px) {
+
+    .wrapper{
+        margin: 0 1rem;
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+    
+    .content{
+        row-gap: 1rem;
+    }
+    .head1, .head2, .head3, .head4{
+        font-size: 0.9rem;
+    }
+ 
+    .para2, .para3, .para4,.para5{
+        font-size: 0.8rem;
+    }
+
+}

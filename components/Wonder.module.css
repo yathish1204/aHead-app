@@ -1,0 +1,312 @@
+.wond{
+    margin: 0 auto;
+    margin-top: 8rem;
+    background-color: #EDF8FE;
+    width: 95vw;
+    height: fit-content;
+    border-radius: 1rem;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 5rem 3.13rem;
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="36" viewBox="0 0 24 24"><path fill="%23D7F2FE" stroke="%235FE3FE" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>'),auto;
+}
+
+.wPara1{
+    color: #6F7274;
+    font-size: 1.3125rem;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.wHead{
+    color: #1A1B1C;
+    font-size: 3.375rem;
+    font-weight: 600;
+    text-wrap: wrap;
+    text-align: center;
+}
+.topImg{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.grades{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.g1{
+    z-index:2;
+    transform: translateX(-30px);
+    transform: translateY(30px);
+}
+
+.g3{
+    z-index:2;
+    transform: translate(25px);
+    transform: translateY(30px);
+}
+
+.g2{
+    z-index:2;
+    transform: translate(20px);
+    transform: translateY(30px);
+}
+
+
+.wPara{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    text-wrap: wrap;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.wPara p{
+    width: 35vw;
+    margin-top: 2rem;
+    color: #8F9496;
+    text-align: center;
+    font-size: 0.84375rem;
+}
+
+.gpara1{
+    transform: translateX(-100px);
+}
+
+.gpara3{
+    transform: translateX(200px);
+}
+
+.dash{
+    margin: auto;
+    width: 54.0625rem;
+    height: 0.15rem;
+}
+
+
+.wondMain{
+    margin: 0 auto;
+    margin-top: 5.25rem;
+    position: relative;
+}
+
+.wondMain .pbar{
+    position: absolute;
+    transform: translateY(-150px);
+    margin-left: 2.5rem;
+}
+
+.y1{
+    position: absolute;
+    top:3rem;
+    left: -1rem;
+}
+.y2{
+    position: absolute;
+    bottom:3rem;
+    left: 15rem;
+}
+.y3{
+    position: absolute;
+    top:3rem;
+    right: 9rem;
+}
+.y4{
+    position: absolute;
+    bottom:3rem;
+    right: -5rem;
+}
+
+.wImageBackup{
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .wond{
+        padding: 5rem 3rem;
+    }
+    .wPara1{
+        font-size: 1.125rem;
+    }
+    .wHead{
+        font-size: 3rem;
+    }
+    .topImg{
+        width:60vw;
+    }
+    .wPara{
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+    }
+    .gPara2{
+        transform: translateX(100px);
+    }
+        
+    .wondMain{
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+
+    .wondMain .pbar{
+        transform: translateY(-180px);
+        margin: 0 auto;
+        margin-left: 1.5rem;
+        scale: 0.8;
+    }
+
+    .y1{
+        top:3rem;
+        left: 4rem;
+    }
+    .y2{
+        bottom:3rem;
+        left: 16rem;
+    }
+    .y3{
+        top:3rem;
+        right: 10rem;
+    }
+    .y4{
+        bottom:3rem;
+        right: -1rem;
+    }
+    
+    
+
+}
+@media screen and (max-width:1000px) {
+    .wond{
+        padding: 5rem 2.5rem;
+        
+    }
+    .wPara1{
+        font-size: 1rem;
+    }
+    
+    .wHead{
+        font-size: 2.5rem;
+    }
+    
+    .topImg{
+        width:50vw;
+    }
+    .wPara p{
+        width: 40vw;
+    }
+    
+    .wPara{
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        margin: 2rem auto;
+        gap: 1rem;
+        width: 50vw;
+        
+    }
+    .gpara1{
+        transform: translate(0px);
+    }
+    .gpara3{
+        transform: translate(0px);
+    }
+    .wondMain{
+        margin: 0 auto;
+        margin-top: 3rem;
+        scale: 0.8;
+    }
+
+    .wondMain .pbar{
+        transform: translateY(-190px);
+        margin: 0 auto;
+        margin-left: 1.5rem;
+        scale: 0.7;
+    }
+
+    .y1{
+        scale: 0.85;
+        top:2rem;
+        left: 4rem;
+    }
+    .y2{
+        scale: 0.85;
+        bottom:2rem;
+        left: 16rem;
+    }
+    .y3{
+        scale: 0.85;
+        top:2rem;
+        right: 10rem;
+    }
+    .y4{
+        scale: 0.85;
+        bottom:2rem;
+        right: 1rem;
+    }
+    
+    
+}
+@media screen and (max-width:800px) {
+    .wond{
+        padding: 4rem 2rem;
+        max-width: 90vw;
+        width: 100%;
+    }
+   
+    .wPara1{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .wHead{
+        font-size: 2.5rem;
+        text-align: left;
+        padding-top: 0.5rem;
+    }
+    .topImg{
+        width:70vw;
+    }
+    .wPara{
+        width: 70vw;
+    }
+    .wondMain{
+        display: none;
+    }
+    .wImageBackup{
+        display: block;
+        width: 80vw;
+    }
+
+    
+  
+}
+@media screen and (max-width:500px) {
+    .wond{
+        padding: 5rem 1rem;
+    }
+    .wPara1{
+        font-size: 0.9rem;
+    }
+    .wHead{
+        font-size: 2rem;
+    }
+    .topImg{
+        width:80vw;
+    }
+    .wPara{
+        width: 80vw;
+    }
+    .wImageBackup{
+        width: 100%;
+    }
+}

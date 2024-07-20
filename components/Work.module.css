@@ -1,0 +1,134 @@
+.work{
+    max-width: 70vw;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 8rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.workp{
+    color: #5E5E5E;
+    font-size: 1.25rem;
+}
+
+.workh2{
+    color: #292929;
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+}
+
+.workp2{
+    color: #7B7B7F;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.inWork{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    align-items: flex-end;
+}
+
+.sign{
+    width: 13.0625rem;
+    height: 2.8125rem;
+}
+
+.inPara{
+    color: #5F5F5F;
+    font-size: 1.25rem;
+}
+
+.workBtn{
+    width: 9.375rem;
+    height: 3.75rem;
+    background: #000;
+    color: white;
+    border-radius: 3.125rem;
+    margin-top: 2rem;
+}
+
+.workBtn:hover{
+    background: #303031;
+    cursor:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23E2BFF9" stroke="%23E48AF9" stroke-width="2" stroke-linejoin="round" d="M10 11V8.99c0-.88.59-1.64 1.44-1.86h.05A1.99 1.99 0 0 1 14 9.05V12v-2c0-.88.6-1.65 1.46-1.87h.05A1.98 1.98 0 0 1 18 10.06V13v-1.94a2 2 0 0 1 1.51-1.94h0A2 2 0 0 1 22 11.06V14c0 .6-.08 1.27-.21 1.97a7.96 7.96 0 0 1-7.55 6.48 54.98 54.98 0 0 1-4.48 0 7.96 7.96 0 0 1-7.55-6.48C2.08 15.27 2 14.59 2 14v-1.49c0-1.11.9-2.01 2.01-2.01h0a2 2 0 0 1 2.01 2.03l-.01.97v-10c0-1.1.9-2 2-2h0a2 2 0 0 1 2 2V11Z"></path></svg>'),auto;
+}
+
+.workp3{
+    color: #959597;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:1000px) {
+    .workp{
+        font-size: 1rem;
+    }
+    .workh2{
+        font-size: 1.75rem;
+    }
+    .workp2{
+        font-size: 1.1rem;
+    }
+    .inPara{
+        font-size: 1rem;
+    }
+    .workP3{
+        font-size: 0.85rem;
+    }
+    .work{
+        padding: 2rem;
+    }
+    .sign{
+        width: 10.25rem;
+        height: 2.25rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .work{
+        max-width: 90vw;
+        width: 100%;
+        text-align: left;
+        padding: 0.75rem;
+    }
+    .sign{
+        width: 8.25rem;
+        height: 2rem;
+    }
+    .inWork{
+        justify-content: flex-start;
+    }
+    
+}
+@media screen and (max-width:400px) {
+   
+    .workp{
+        font-size: 0.75rem;
+    }
+    .workh2{
+        font-size: 1.5rem;
+    }
+    .workp2{
+        font-size: 0.9rem;
+    }
+    .inPara{
+        font-size: 0.75rem;
+    }
+    .workP3{
+        font-size: 0.70rem;
+    }
+    .work{
+        padding: 1rem;
+    }
+    .sign{
+        width: 6.25rem;
+        height: 1.25rem;
+    }
+    
+}
