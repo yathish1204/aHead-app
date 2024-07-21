@@ -9,6 +9,7 @@ import Work from "@/components/Work";
 import Footer from "@/components/Footer";
 import Vac from "@/components/Vac";
 import Withus from "@/components/Withus";
+import ParticleAnimation from "@/components/ParticleAnimation";
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
   
   return (
     <section>
-      
+      <ParticleAnimation/>
     <Hero/>
     <Familiar/>
     <Meet/>

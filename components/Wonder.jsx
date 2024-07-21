@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import styles from './Wonder.module.css'
 import { gsap } from 'gsap';
-import  ScrollTrigger  from 'gsap/dist/ScrollTrigger';
+import  ScrollTrigger  from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -37,26 +37,24 @@ useGSAP(()=>{
     tl.from('#dash',{
       scaleX:0,
       opacity:0,
-      duration:0.8,
+      duration:1,
       transformOrigin:"0% 50%",
       scrollTrigger:{
-      trigger:"#dash",
+        trigger:"#dash",
         scroller:"body",
-        scrub:1,
-        start:"top 90%",
+        start:"top 80%",
         end:"top 60%"
       }
     })
     tl.from('#g1',{
       scale:0,
       duration:0.8,
-      stagger:0.4,
+      stagger:0.2,
       ease:'elastic.out',
       scrollTrigger:{
-      trigger:"#g1",
+        trigger:"#g1",
         scroller:"body",
-        scrub:1,
-        start:"top 80%",
+        start:"top 90%",
         end:"top 50%"
       }
     })

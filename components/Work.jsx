@@ -70,13 +70,10 @@ const Work = () => {
       tl.from('#workBtn',{
         scale:0,
         opacity:0,
-        duration:0.8,
         scrollTrigger:{
         trigger:"#workBtn",
           scroller:"body",
-          scrub:1,
           start:"top 100%",
-          end:"top 90%"
         }
       })
   },[])

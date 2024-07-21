@@ -24,25 +24,28 @@ useGSAP(()=>{
   })
   tl.from('#gPurple',{
       rotate:24,
-      duration:0.3,
+      duration:0.45,
       ease:'expo.in',
+      start:0,
       scrollTrigger:{
         trigger:"#gPurple",
         scroller:"body",
-        scrub:1,
         start:"top 100%",
-        end:'top 60%'
+        end:'top 60%',
+        scrub:true,
+        toggleActions:"play none none none"
       }
   })
   tl.from('#grade',{
       y:100,
-      duration:0.3,
+      duration:0.5,
+      start:0,
       ease:"elastic.out(1,0.3)",
       scrollTrigger:{
         trigger:"#gPurple",
         scroller:"body",
-        scrub:1,
         start:"top 70%",
+        scrub:true,
         end:'top 50%'
       }
   })
@@ -50,25 +53,24 @@ useGSAP(()=>{
       x:-40,
       opacity:0,
       start:0,
-      duration:0.3,
+      duration:0.5,
       scrollTrigger:{
         trigger:"#heading",
         scroller:"body",
-        scrub:1,
         start:"top 100%",
+        scrub:true,
         end:"top 50%"
       }
   })
   tl.from('#para',{
       y:40,
       opacity:0,
-      start:0,
-      duration:0.3,
+      duration:0.4,
       scrollTrigger:{
         trigger:"#para",
         scroller:"body",
-        scrub:1,
         start:"top 100%",
+        scrub:true,
         end:"top 60%"
       }
   })
@@ -76,11 +78,12 @@ useGSAP(()=>{
       x:40,
       opacity:0,
       stagger:0.4,
+      duration:0.5,
       scrollTrigger:{
         trigger:"#para1",
         scroller:"body",
-        scrub:1,
         start:"top 100%",
+        scrub:true,
         end:"top 50%",
       }
   })

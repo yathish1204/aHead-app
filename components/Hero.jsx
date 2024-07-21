@@ -4,12 +4,16 @@ import React from 'react'
 import Image from "next/image"
 import styles from './hero.module.css'
 import { gsap } from 'gsap';
-import  ScrollTrigger  from 'gsap/dist/ScrollTrigger';
+import  ScrollTrigger  from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
+    
 
+    const handleResize = () => {
+
+    
 
 
   useGSAP(()=>{
@@ -22,24 +26,20 @@ const Hero = () => {
       opacity:0,
       y:20,
       duration:0.8,
-      delay:0.3,
+      delay:0.1,
     })
     gsap.from("#btnRow",{
       opacity:0,
       y:20,
-      stagger:0.3,
-      duration:0.8,
-      delay:1,
-    })
-    gsap.from("#review",{
-      y:40,
+      duration:0.4,
       scrollTrigger:{
-        trigger:"#review",
+        trigger:"#btnRow",
         scroller:"body",
-        start:"top 70%",
-        end:"top 40%"
+        start:"top 100%",
+        toggleActions:"play none none none"
       }
     })
+ 
 
     const tl=gsap.timeline();
     tl.from("#circle2",{
@@ -168,7 +168,6 @@ const Hero = () => {
       }
     })
     tl.from('#heroImg',{
-      start:0,
       rotate:15,
       scrollTrigger:{
         trigger:"#heroImg",
@@ -180,32 +179,35 @@ const Hero = () => {
     tl.from('#h3',{
       y:40,
       opacity:0,
-      stagger:0.3,
+      duration:1,
+      ease:"back.inOut",
       scrollTrigger:{
         trigger:"#h3",
         scroller:"body",
-        scrub:1,
-        start:"top 100%",
+        start:"top 80%",
       }
     })
     tl.from('#p',{
       y:30,
       x:15,
       opacity:0,
+      duration:1,
       stagger:0.4,
-      duration:0.4,
+      ease:"back.inOut",
       scrollTrigger:{
         trigger:"#p",
         scroller:"body",
-        scrub:1,
-        start:"top 100%",
-        end:"top 60%"
+        start:"top 80%",
       }
     })
     
     
   },[])
+}
 
+window.addEventListener("resize",handleResize,()=>{
+  ScrollTrigger.refresh();
+});
 
 
   return (

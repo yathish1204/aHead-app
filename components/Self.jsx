@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import styles from './Self.module.css'
 import { gsap } from 'gsap';
-import  ScrollTrigger  from 'gsap/dist/ScrollTrigger';
+import  ScrollTrigger  from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -16,10 +16,11 @@ useGSAP(()=>{
         y:40,
         opacity:0,
         stagger:0.3,
+        duration:0.6,
+        ease:"back.inOut",
         scrollTrigger:{
           trigger:"#h3Cont",
           scroller:"body",
-          scrub:1,
           start:"top 100%",
           end:"top 50%",
         }
@@ -29,11 +30,11 @@ useGSAP(()=>{
         x:15,
         opacity:0,
         stagger:0.4,
-        duration:0.4,
+        duration:0.6,
+        ease:"back.inOut",
         scrollTrigger:{
           trigger:"#pCont",
           scroller:"body",
-          scrub:1,
           start:"top 100%",
           end:"top 50%",
         }

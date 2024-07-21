@@ -33,7 +33,7 @@ const scrollToTop = () =>{
           </ul>
           <button className={styles.btn} >Download App</button>
           {sidebar ? 
-          <Image src='/assets/close.png' alt='Close Menu' width={66} height={66} className={styles.mobMenu} onClick={showSidebar} />:
+          <Image src='/assets/Close.png' alt='Close Menu' width={66} height={66} className={styles.mobMenu} onClick={showSidebar} />:
           <Image src='/assets/Hamburger.png' alt='Hamburger Menu' width={72} height={72} className={styles.mobMenu} onClick={showSidebar} />}
 
         </div>
@@ -49,7 +49,7 @@ const scrollToTop = () =>{
         </div>}
       </nav>
       </>
-  )
+  ) 
 }
 
 export default Navbar

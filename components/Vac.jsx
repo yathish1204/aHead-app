@@ -5,11 +5,30 @@ import styles from './Vac.module.css'
 import { gsap } from 'gsap';
 import  ScrollTrigger  from 'gsap/dist/ScrollTrigger';
 import { useGSAP} from '@gsap/react';
+import {useEffect, useRef} from 'react'
 gsap.registerPlugin(ScrollTrigger);
 
 const Vac = () => {
 
+  
+//   const cursorRef = useRef(null);
 
+//   useEffect(()=>{
+      
+//   const cursorAnimation = (e) => {
+//     if(cursorRef.current){
+//       const cursorWidth = cursorRef.current.offsetWidth;
+//       const cursorHeight = cursorRef.current.offsetHeight;
+//       cursorRef.current.style.left=`${e.clientX-cursorWidth/2}px`;
+//       cursorRef.current.style.top=`${e.clientY-cursorHeight/2}px`;
+//     }
+// }
+
+// document.addEventListener("mousemove",cursorAnimation);
+// return()=>{
+//   document.removeEventListener("mousemove",cursorAnimation);
+// }
+//   },[])
 
 
     useGSAP(()=>{
@@ -40,8 +59,11 @@ const Vac = () => {
         })
     },[])
 
+
+
   return (
-    <section id='vac'>
+    <section id='vac' className={styles.vacc} >
+      {/* <div className={styles.myCursor} ref={cursorRef} ></div> */}
       <div className={styles.vac}>
         <h2 id='vh2' className={styles.vh2}>Open vacancies</h2>
         <div className={styles.cards}>

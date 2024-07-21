@@ -49,16 +49,16 @@ const Footer = () => {
       }
     })
     
-    tl.from('#apple',{
-      scale:0.4,
-      scrollTrigger:{
-      trigger:"#apple",
-        scroller:"body",
-        scrub:1,
-        start:"top 100%",
-        end:"top 80%"
-      }
-    })
+    // tl.from('#apple',{
+    //   scale:0.4,
+    //   scrollTrigger:{
+    //   trigger:"#apple",
+    //     scroller:"body",
+    //     scrub:1,
+    //     start:"top 100%",
+    //     end:"top 80%"
+    //   }
+    // })
     tl.from('#copy',{
       y:50,
       opacity:0,
