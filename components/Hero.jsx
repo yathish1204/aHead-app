@@ -4,14 +4,14 @@ import React from 'react'
 import Image from "next/image"
 import styles from './hero.module.css'
 import { gsap } from 'gsap';
-import  ScrollTrigger  from 'gsap/ScrollTrigger';
+import { ScrollTrigger } from 'gsap/ScrollTrigger.js';
 import { useGSAP } from '@gsap/react';
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
     
 
-    const handleResize = () => {
+    // const handleResize = () => {
 
     
 
@@ -203,11 +203,11 @@ const Hero = () => {
     
     
   },[])
-}
+// }
 
-window.addEventListener("resize",handleResize,()=>{
-  ScrollTrigger.refresh();
-});
+// window.addEventListener("resize",handleResize,()=>{
+//   ScrollTrigger.refresh();
+// });
 
 
   return (

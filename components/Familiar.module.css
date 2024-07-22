@@ -16,6 +16,7 @@
 
 .scroller{
     display: flex;
+    position: relative;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 1rem;

@@ -26,10 +26,10 @@ const scrollToTop = () =>{
         <div className={styles.navbar} >
           <Image onClick={scrollToTop} className={styles.navlogo} src='/assets/Image.png' alt='logo' width={50} height={50} />
           <ul className={styles.ul}>
-            <li><Link href='#familiar'>Emotions</Link></li>
-            <li><Link href='#meet'>Manifesto</Link></li>
-            <li><Link href='#self'>Self-awareness test</Link></li>
-            <li><Link href='#withus' >Work With Us</Link></li>
+            <li ><Link className={styles.link} href='#familiar'>Emotions</Link></li>
+            <li ><Link className={styles.link} href='#meet'>Manifesto</Link></li>
+            <li ><Link className={styles.link} href='#self'>Self-awareness test</Link></li>
+            <li ><Link className={styles.link} href='#withus' >Work With Us</Link></li>
           </ul>
           <button className={styles.btn} >Download App</button>
           {sidebar ? 
@@ -40,10 +40,10 @@ const scrollToTop = () =>{
    
         {sidebar && <div className={styles.sidebar}>
           <ul className={styles.ul}>
-              <li className={styles.li} onClick={showSidebar}><Link href='#familiar'>Emotions</Link></li>
-              <li className={styles.li} onClick={showSidebar}><Link href='#meet'>Manifesto</Link></li>
-              <li className={styles.li} onClick={showSidebar}><Link href='#self'>Self-awareness test</Link></li>
-              <li className={styles.li} onClick={showSidebar}><Link href='#withus' >Work With Us</Link></li>
+              <li  onClick={showSidebar}><Link className={styles.link} href='#familiar'>Emotions</Link></li>
+              <li  onClick={showSidebar}><Link className={styles.link} href='#meet'>Manifesto</Link></li>
+              <li  onClick={showSidebar}><Link className={styles.link} href='#self'>Self-awareness test</Link></li>
+              <li  onClick={showSidebar}><Link className={styles.link} href='#withus' >Work With Us</Link></li>
               <button onClick={showSidebar} className={styles.btn} >Download App</button>
             </ul>
         </div>}
